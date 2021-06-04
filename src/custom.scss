@@ -1,0 +1,36 @@
+$primary: #0093dd;
+$secondary: #00ddad;
+$success: #fbc042;
+$dark: #282d32;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.popperName {
+  background-color: white;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.popperArrow {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  &:after {
+    content: " ";
+    background-color: white;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+  }
+}
+
+[data-popper-placement="top"] > .popperArrow::after {
+  top: 22px;
+}
+
+.icon:hover > * {
+  color: $primary;
+}

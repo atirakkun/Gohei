@@ -22,9 +22,8 @@ function HeaderUser(props) {
         onMouseEnter={props.hover}
         onMouseLeave={props.hover}
       >
-        <span className="me-2 text-white">Usuario</span>
-        <FontAwesomeIcon icon={faCaretDown} size="lg" color="white" />
-        <FontAwesomeIcon icon={faUser} size="lg" color="white" />
+        <FontAwesomeIcon icon={faUser} size="2x" color="white" />
+        <FontAwesomeIcon icon={faCaretDown} size="2x" color="white" />
       </div>
       <ul
         className="dropdown-menu dropdown-menu-dark dropdown-menu-end"
@@ -42,7 +41,7 @@ function HeaderUser(props) {
           </Link>
         </li>
         <li>
-          <Link className="dropdown-item icon" to="/">
+          <Link className="dropdown-item icon" to="/edit">
             <FontAwesomeIcon
               icon={faTools}
               size="lg"
@@ -56,7 +55,7 @@ function HeaderUser(props) {
           <hr className="dropdown-divider" />
         </li>
         <li>
-          <Link className="dropdown-item icon" to="/">
+          <Link className="dropdown-item icon" to="/stats">
             <FontAwesomeIcon
               icon={faChartBar}
               size="lg"
@@ -70,7 +69,7 @@ function HeaderUser(props) {
           <hr className="dropdown-divider" />
         </li>
         <li>
-          <Link className="dropdown-item icon" to="/">
+          <Link className="dropdown-item icon" to="/settings">
             <FontAwesomeIcon
               icon={faCog}
               size="lg"

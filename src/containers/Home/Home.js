@@ -5,7 +5,7 @@ import LearnPreview from "../../components/LearnPreview/LearnPreview";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container text-white">
       <Header />
       <Busqueda />
       <LearnPreview />

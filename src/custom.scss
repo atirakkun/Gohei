@@ -1,12 +1,15 @@
 $primary: #0093dd;
 $secondary: #00ddad;
 $success: #fbc042;
+$info: #404040;
 $dark: #282d32;
+$font-family-sans-serif: "Noto Sans JP", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 .popperName {
   background-color: white;
+  color: black;
   border-radius: 2px;
   padding: 3px;
 }
@@ -33,4 +36,12 @@ $dark: #282d32;
 
 .icon:hover > * {
   color: $primary;
+}
+
+.kanji {
+  display: inline-block;
+  font-size: 700%;
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }

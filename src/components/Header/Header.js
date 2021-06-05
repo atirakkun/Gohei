@@ -7,9 +7,9 @@ import HeaderUser from "./HeaderUser/HeaderUser";
 function NavBar() {
   return (
     <nav className="navbar navbar-dark mb-4">
-      <Link to="/" className="navbar-brand text-white">
+      <Link to="/" className="navbar-brand">
         <img src={logo} alt="Logo" style={{ height: "70px" }} />{" "}
-        <span className="d-inline-block fs-2 align-middle">Gohei</span>
+        <span className="d-inline-block fs-2 fw-bold align-middle">Gohei</span>
       </Link>
       <ul className="nav">
         <li className="nav-item dropdown">

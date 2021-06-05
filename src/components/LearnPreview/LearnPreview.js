@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function LearnPreview() {
   return (
@@ -8,9 +9,11 @@ export default function LearnPreview() {
           KANJIS
         </div>
         <div className="d-flex flex-wrap">
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
-            一
-          </button>
+          <Link to="/kanji/一">
+            <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+              一
+            </button>
+          </Link>
           <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
             二
           </button>

@@ -41,7 +41,11 @@ $font-family-sans-serif: "Noto Sans JP", sans-serif;
 .kanji {
   display: inline-block;
   font-size: 700%;
-  font-weight: bold;
   writing-mode: vertical-lr;
   text-orientation: upright;
+}
+
+.strokes {
+  overflow: scroll;
+  overflow-y: hidden;
 }

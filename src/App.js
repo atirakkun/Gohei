@@ -8,7 +8,7 @@ function App() {
     <>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/kanji/" component={Kanji} />
+        <Route path="/kanji/:kanji" component={Kanji} />
       </Switch>
     </>
   );

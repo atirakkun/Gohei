@@ -9,44 +9,78 @@ export default function LearnPreview() {
           KANJIS
         </div>
         <div className="d-flex flex-wrap">
-          <Link to="/kanji/一">
-            <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
-              一
-            </button>
+          <Link
+            to="/kanji/一"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
+            一
           </Link>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             二
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             三
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             四
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             五
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             六
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             七
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             八
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             九
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             十
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             識
-          </button>
-          <button className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded">
+          </Link>
+          <Link
+            to="/"
+            className="btn btn-primary d-inline-flex justify-content-center m-1 previewBox fs-3 text-white rounded"
+          >
             鼻
-          </button>
+          </Link>
         </div>
       </div>
       <div className="row w-75">

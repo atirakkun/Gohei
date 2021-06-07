@@ -1,11 +1,23 @@
 $primary: #0093dd;
-$secondary: #00ddad;
-$success: #fbc042;
+$secondary: #aa00ff;
+$success: #fdb825;
 $info: #404040;
 $dark: #282d32;
 $font-family-sans-serif: "Noto Sans JP", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.secundario:active {
+  background-color: $secondary !important;
+}
+
+.exito:active {
+  background-color: $success !important;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
 
 .popperName {
   background-color: white;
@@ -45,7 +57,40 @@ $font-family-sans-serif: "Noto Sans JP", sans-serif;
   text-orientation: upright;
 }
 
+.kanji-bar {
+  width: 150px;
+}
+
+.kanji-meaning {
+  background-color: $primary;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.kanji-radical {
+  background-color: $secondary;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
 .strokes {
   overflow: scroll;
   overflow-y: hidden;
+}
+
+.strokes::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+.strokes::-webkit-scrollbar-thumb {
+  background: $primary;
+  border-radius: 10px;
+}
+.strokes::-webkit-scrollbar-thumb:hover {
+  background: #26a3e2;
+}
+.strokes::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
 }
